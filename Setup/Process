@@ -1,0 +1,254 @@
+Partition + Format
+
+mount -o noatime,compress=lzo,space_cache=v2 /dev/nvme0n1p6 /mnt
+
+btrfs su cr /mnt/@, snapshots
+
+umount /mnt
+
+mount -o noatime,compress=lzo,space_cache=v2,subvol=@ /dev/nvme0n1p6 /mnt
+mkdir -p /mnt/{boot,home,.snapshots}
+mount -o noatime,compress=lzo,space_cache=v2,subvol=@snapshots /dev/nvme0n1p6 /mnt/.snapshots
+mount /dev/nvme0n1p5 /mnt/boot
+
+PACSTRAP:
+amd-ucode
+base
+base-devel
+linux
+linux-firmware
+linux-headers
+vim
+sudo
+xf86-video-amdgpu
+
+genfstab -U /mnt >> /mnt/etc/fstab
+
+
+--------------------
+arch-chroot /mnt
+
+passwd
+useradd -mG wheel user
+passwd user
+EDITOR=vim visudo
+
+ln -sf /usr/share/zoneinfo/America/Regina /etc/localtime
+hclock --systoch
+
+vim /etc/locale.gen
+
+locale-gen
+
+vim /etc/locale.conf - LANG=en_CA.UTF-8
+
+vim /etc/hostname
+[comp name here]
+
+vim /etc/hosts
+127.0.0.1    localhost
+::1          localhost
+127.0.1.1    [comp name here].localdomain    [comp name here]
+
+Install:
+blueman
+dialog
+efibootmgr
+git
+grub
+fastfetch
+fuse2
+fuse3
+networkmanager
+network-manager-applet
+os-prober
+otf-font-awesome
+snapper
+terminus-font
+ttf-jetbrains-mono
+trash-cli
+wget
+zsh
+
+vim /etc/mkinitcpio.conf
+MODULES=(zram)
+
+mkinitcpio -p linux
+
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+systemctl enable NetworkManager
+systemctl enable bluetooth
+
+exit
+
+umount -lR /mnt
+
+sudo shutdown now
+
+
+--------------------
+sudo nmcli device wifi connect [wifi ssid] password [wifi password]
+
+git clone https://github.com/Jsinisin/base.git
+
+sudo chmod +x audio.sh
+sudo chmod +x joplin.sh
+sudo chmod +x btrfs.sh
+
+sudo modprobe zram
+sudo bash -c 'echo "zstd" > /sys/block/zram0/comp_algorithm'
+sudo bash -c 'echo "8G" > /sys/block/zram0/disksize'
+mkswap --label zram0 /dev/zram0
+swapon --priority 100 /dev/zram0
+
+sudo vim /etc/modules-load.d/zram.conf
+
+options zram num_devices=1
+
+sudo vim /etc/udev/rules.d/99-zram.rules
+
+ACTION=="add", KERNEL=="zram0", ATTR{comp_algorithm}="zstd", ATTR{disksize}="8G", RUN="/usr/bin/mkswap -U clear /dev/%k", TAG+="systemd"
+
+sudo vim /etc/fstab
+
+/dev/zram0 none swap defaults,pri=100 0 0
+
+sudo mv /home/user/base/.zshrc /home/user/
+sudo mkdir .config
+sudo chown user:user /home/user/.config
+sudo chown user:user /home/user/base/.config/*
+sudo mv /home/user/base/.config/fastfetch /home/user/.config/
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-syntax-highlighting
+
+chsh
+
+sudo mkinitcpio -p linux
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+sudo reboot now
+
+--------------------
+BTRFS/Snapper Config
+--------------------
+
+btrfs.sh
+
+sudo vim /etc/snapper/configs/root
+Add user
+min age - 1800
+4 hourly
+7 daily
+0 rest
+
+btrfs property set -ts [/path/to/snapshot] ro false
+
+sudo systemctl enable snapper-timeline.timer
+sudo systemctl enable snapper-cleanup.timer
+
+timedatectl set-ntp true
+timedatectl set-timezone America/Regina
+
+vim /etc/vconsole.conf
+addline - FONT=ter-120b
+
+https://aur.archlinux.org/paru-git.git
+
+cd paru/
+makepkg -si
+
+
+acpica
+audacity
+bitwarden
+bleachbit
+brightnessctl
+chromium
+cliphist
+dunst
+ffmpeg
+file-roller
+firefox
+gimp
+grim
+gvfs
+hyprcursor
+hyprland
+hyprlang
+hyprpaper
+kdenlive
+kvantum
+libreoffice-fresh
+mousepad
+nwg-look
+pavucontrol
+pulseaudio
+pulseaudio-bluetooth
+polkit-gnome
+polkit-kde-agent
+qt6ct
+qt6-wayland
+seahorse
+slurp
+swappy
+terminator
+thunar
+thunar-archive-plugin
+thunar-volman
+waybar
+wf-recorder
+wlroots
+wofi
+
+
+---------------------
+PARU
+---------------------
+hyprpicker
+microsoft-edge-stable-bin
+network-manager-openvpn
+qimgv
+slack-desktop-wayland
+snapper-gui
+visual-studio-code-bin
+wlogout
+snap-pac-grub
+kando
+vmware
+
+joplin.sh
+
+CD /home/user/base/Setup
+
+tar -xzf (Setup/.Local)
+unzip -q
+
+sudo mv Avidity-Dusk-Mixed-Suru /usr/share/icons/
+sudo mv Material-Black-Plum-BE /usr/share/themes/
+sudo mv Lavender-Kvantum /usr/share/themes/
+sudo mv grub /etc/default
+sudo mv Xenlism-Arch /boot/grub/themes/
+sudo cp -r applications /usr/share/applications
+sudo cp -r 10_linux /etc/grub.d/
+sudo cp -r 30_osprober /etc/grub.d/
+sudo cp -r grub-btrfs /etc/default
+sudo rm -rf applications
+sudo rm -rf 10_linux
+sudo rm -rf 30_osprober
+sudo rm -rf grub-btrfs
+
+audio.sh
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+Sudo reboot now
+
+Firefox:
+about:config
+devtools.pol - false
+legacy - false
+animatedFox.centeredTabs - true

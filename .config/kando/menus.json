@@ -1,0 +1,362 @@
+{
+  "menus": [
+    {
+      "shortcut": "Control+Space",
+      "shortcutID": "kando-menu",
+      "centered": true,
+      "root": {
+        "type": "submenu",
+        "name": "Kando Menu",
+        "icon": "blur_on",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "System",
+            "icon": "component_exchange",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "snapper-gui",
+                  "delayed": false
+                },
+                "name": "Snapper",
+                "icon": "settings_backup_restore",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "bleachbit",
+                  "delayed": false
+                },
+                "name": "Bleachbit",
+                "icon": "cleaning_bucket",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 180
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "bitwarden-desktop",
+                  "delayed": false
+                },
+                "name": "Bitwarden",
+                "icon": "password",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Finance",
+            "icon": "attach_money",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://my.wealthsimple.com/app/login?locale=en-ca"
+                },
+                "name": "WealthSimple",
+                "icon": "waterfall_chart",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://secure.eqbank.ca/login"
+                },
+                "name": "EQ Bank",
+                "icon": "request_page",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 180
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://member.neofinancial.com/login"
+                },
+                "name": "NeoFinancial",
+                "icon": "credit_card",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 240
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://auth.scotiaonline.scotiabank.com/online?oauth_key=9EAQHqveZ1M&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJyZWZlcmVyIjoiaHR0cHM6XC9cL3d3dy5zY290aWFiYW5rLmNvbVwvIiwib2F1dGhfa2V5IjoiOUVBUUhxdmVaMU0iLCJjb25zZW50X3JlcXVpcmVkIjpmYWxzZSwicmVkaXJlY3RfdXJpIjoiaHR0cHM6XC9cL3d3dy5zY290aWFvbmxpbmUuc2NvdGlhYmFuay5jb21cL29ubGluZVwvbGFuZGluZ1wvb2F1dGhsYW5kaW5nLmJucyIsImV4cCI6MTcyNjY4NzA0OCwiaWF0IjoxNzI2Njg1ODQ4LCJqdGkiOiIzMDJkOWIzMC1jODFkLTRkODEtYjJlZi1jNzYzNDU0MTJiMDMiLCJjbGllbnRfaWQiOiI4ZWU5MGMzOS0xYzUyLTRmZjQtOGFlNi1hN2I1NGM1Mzk5MzMiLCJjbGllbnRfbWV0YWRhdGEiOnsiQ2hhbm5lbElEIjoiU09MIiwiQXBwbGljYXRpb25Db2RlIjoiSDcifSwiaXNzdWVyIjoiaHR0cHM6XC9cL3Bhc3Nwb3J0LnNjb3RpYWJhbmsuY29tIn0.yC-pnyQz86OWfFhDT2GuUH9m7CdLh6Cj4CIvMMzgL2mnWCVy8fxVvBQYCUKCT3WuHsSf9B7Lsbap9wO02EguFWTzxl-4G61q4GzJv7ZgXn8kDIaqgqnaV7KcHsX9LN193OhcZXRC6ynPmFl20EfPWXxV6q8DMEWx9Z981Zmn2gqPbjNa8e-oOpXCBq6eOwsPcbbs5HFY6vqhjLI1W6yI-9N7-zrJZI1aaqtoPWt_GdzXrrKjUza3C8mlBj0dUCo9SsgyIK0W0DBsPz9X45FPM1diianthbfN_MG5AErDYt-XYDjT5uVwngDky5r1ABoIRGJGSC9QI3hH07swyJ5SzQ&preferred_environment="
+                },
+                "name": "ScotiaBank",
+                "icon": "send_money",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 300
+              }
+            ],
+            "angle": 0
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Notes",
+            "icon": "ink_pen",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "/home/user/.joplin/Joplin.AppImage",
+                  "delayed": false
+                },
+                "name": "Joplin",
+                "icon": "note_stack",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/code %F",
+                  "delayed": false
+                },
+                "name": "VS Code",
+                "icon": "code_blocks",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 60
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "chromium --app=https://app.standardnotes.com",
+                  "delayed": true
+                },
+                "name": "Standard Notes",
+                "icon": "note_stack",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 120
+              },
+              {
+                "type": "submenu",
+                "data": {},
+                "name": "Libreoffice",
+                "icon": "local_post_office",
+                "iconTheme": "material-symbols-rounded",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "libreoffice --calc %U",
+                      "delayed": false
+                    },
+                    "name": "LibreOffice Calc",
+                    "icon": "splitscreen_add",
+                    "iconTheme": "material-symbols-rounded"
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "libreoffice --writer %U",
+                      "delayed": false
+                    },
+                    "name": "LibreOffice Docs",
+                    "icon": "document_scanner",
+                    "iconTheme": "material-symbols-rounded"
+                  }
+                ],
+                "angle": 180
+              }
+            ],
+            "angle": 60
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Proton",
+            "icon": "online_prediction",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "firefox -P Main \"https://account.proton.me/mail\"",
+                  "delayed": true
+                },
+                "name": "ProtonMail",
+                "icon": "mail",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "firefox -P Main \"https://account.proton.me/drive\"",
+                  "delayed": true
+                },
+                "name": "ProtonDrive",
+                "icon": "drive_folder_upload",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 90
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "firefox -P Main \"https://account.proton.me/calendar\"",
+                  "delayed": true
+                },
+                "name": "Proton Calendar",
+                "icon": "edit_calendar",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 180
+              }
+            ],
+            "angle": 120
+          },
+          {
+            "type": "submenu",
+            "name": "Apps",
+            "icon": "app_shortcut",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/discord",
+                  "delayed": false
+                },
+                "name": "Discord",
+                "icon": "voice_chat",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 45
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "chromium --app=https://messages.google.com/web",
+                  "delayed": true
+                },
+                "name": "Messages",
+                "icon": "mark_unread_chat_alt",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 90
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/slack --disable-gpu-compositing --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WebRTCPipeWireCapturer --enable-features=WaylandWindowDecorations --disable-features=WaylandFractionalScaleV1 -s %U",
+                  "delayed": false
+                },
+                "name": "Slack",
+                "icon": "spatial_tracking",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 150
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "kdenlive %F",
+                  "delayed": false
+                },
+                "name": "KdenLive",
+                "icon": "video_camera_back_add",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 210
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "env GDK_BACKEND=x11 UBUNTU_MENUPROXY=0 audacity %F",
+                  "delayed": false
+                },
+                "name": "Audacity",
+                "icon": "adaptive_audio_mic",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "gimp-2.10 %U",
+                  "delayed": false
+                },
+                "name": "GNU Image",
+                "icon": "imagesmode",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 315
+              }
+            ],
+            "angle": 180
+          },
+          {
+            "type": "submenu",
+            "name": "Thunar",
+            "icon": "folder_copy",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar /home/user/Downloads"
+                },
+                "name": "Downloads",
+                "icon": "download",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 30
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar /home/user/Pictures"
+                },
+                "name": "Pictures",
+                "icon": "imagesmode",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 120
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar /home/user/Videos"
+                },
+                "name": "Videos",
+                "icon": "video_camera_front",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 180
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar $HOME",
+                  "delayed": false
+                },
+                "name": "Thunar",
+                "icon": "terminal",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 247.5
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "thunar /home/user/Documents"
+                },
+                "name": "Documents",
+                "icon": "text_ad",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 315
+              }
+            ],
+            "angle": 240
+          }
+        ]
+      },
+      "anchored": false
+    }
+  ],
+  "templates": []
+}

@@ -1,0 +1,240 @@
+
+{
+    // Workspaces
+    "hyprland/workspaces":{
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{}",
+        "format-icons":{
+			"urgent": "",
+			"active": "",
+			"default": ""
+       },
+        "persistent-workspaces":{
+             "*": 5
+        }       
+    },
+    // Taskbar
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 12,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+           "Alacritty"
+        ],
+        "app_ids-mapping": {
+            "firefoxdeveloperedition": "firefox-developer-edition"
+        },
+        "rewrite": {
+            "Firefox Web Browser": "Firefox",
+            "Foot Server": "Terminal"
+        }
+    },
+
+    // Hyprland Window
+//    "hyprland/window": {
+//        "rewrite": {
+//            "(.*) - Brave": "$1",
+//            "(.*) - Chromium": "$1",
+//            "(.*) - Brave Search": "$1",
+//            "(.*) - Outlook": "$1",
+//            "(.*) Microsoft Teams": "$1"
+//        },
+//        "separate-outputs": true
+//    },
+
+    // Cliphist
+//    "custom/cliphist": {
+//        "format": "",
+//        "on-click": "sleep 0.1 && ~/.config/scripts/clipboard.sh",
+//        "on-click-right": "sleep 0.1 && ~/.config/scripts/clipboardclear.sh",
+//        "on-click-middle": "",
+//        "tooltip": false
+//    },
+    
+    // Discord
+//    "custom/discord": {
+//        "format": "",
+//        "on-click": "vivaldi --app=https://discord.com/app",
+//        "tooltip": false
+//    },
+
+    // Slack
+//    "custom/slack": {
+//        "format": "",
+//        "on-click": "vivaldi --app=https://app.slack.com/client/T0GQKKV08/D02CXLKTV1N",
+//        "tooltip": false
+//    },    
+
+    // Spotify
+//    "custom/spotify": {
+//        "on-click": "vivaldi --app=https://open.spotify.com",
+//        "format": "",
+//        "tooltip": false
+//    },
+
+    // Standard Notes
+//    "custom/notes": {
+//    	"format": "", 	
+//        "on-click": "~/.local/bin/standard-notes-3.192.8-linux-x86_64.AppImage",
+//	"tooltip": false
+//    },
+
+
+    // ChatGPT
+//    "custom/chatgpt": {
+//        "format": "@",
+//        "on-click": "vivaldi --app=https://chat.openai.com",
+//        "tooltip": false
+//    },
+ 
+    // Texting
+//    "custom/texting": {
+//        "format": "",
+//        "on-click": "vivaldi --app=https://messages.google.com/web/conversations",
+//        "tooltip": false
+//    },
+    
+    // Power Menu
+//    "custom/exit": {
+//        "format": "",
+//        "on-click": "~/.config/scripts/iconlogout.sh",
+//        "tooltip": false
+//    },
+
+    // System tray
+    "tray": {
+        "icon-size": 15,
+        "spacing": 10
+    },
+
+    // Clock
+    "clock": {
+        "timezone": "America/Regina",
+        "format": "{:%H:%M}",
+        "format-alt": "{:%A, %B %d, %Y} "
+    },
+        //"tooltip-format": "<tt><small>{calendar}</small></tt>"
+        //"calendar": {
+        //            "mode"          : "year",
+        //            "mode-mon-col"  : 3,
+        //            "weeks-pos"     : "right",
+        //            "on-scroll"     : 1,
+        //            "format": {
+        //                      "months":     "<span color='#ffead3'><b>{}</b></span>",
+        //                      "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+        //                      "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+        //                      "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+        //                      "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
+        //                      }
+        //            },
+        //"actions":  {
+        //            "on-click-right": "mode",
+        //            "on-scroll-up": "tz_up",
+        //           "on-scroll-down": "tz_down",
+        //            "on-scroll-up": "shift_up",
+        //            "on-scroll-down": "shift_down"
+        //            }
+    //},
+
+    // CPU
+//    "cpu": {
+//        "format": "/ C {usage}% ",
+//        "on-click": "terminator -e htop"
+//    },
+
+    // Memory
+//    "memory": {
+//        "format": "/ M {}% ",
+//        "on-click": "terminator -e htop"
+//    },
+
+    // Harddisc space used
+//    "disk": {
+//        "interval": 30,
+//        "format": "D {percentage_used}% ",
+//        "path": "/",
+//        "on-click": "terminal -e htop"
+//    }, 
+
+//    "hyprland/language": {
+//        "format": "/ K {short}"
+//    },
+
+    // Network
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "   {signalStrength}%",
+        "format-ethernet": "  {ipaddr}",
+        "format-disconnected": "Not connected", //An empty format will hide the module.
+        "tooltip-format": " {ifname} via {gwaddri}",
+        "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50,
+        "on-click": "terminator -e nmtui"
+    },
+
+    // Battery
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}   {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-plugged": "  {capacity}%",
+        "format-alt": "{icon}  {time}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+
+    // Pulseaudio
+    "pulseaudio": {
+        "scroll-step": 5,// %, can be a float
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", " ", " "]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    // Bluetooth
+    "bluetooth": {
+        "format-disabled": "",
+        "format-off": "",
+        "interval": 30,
+        "on-click": "blueman-manager"
+    }
+
+    // Group chat
+//    "group/chat": {
+//        "orientation": "inherit",
+//        "drawer": {
+//            "transition-duration": 300,
+//            "children-class": "not-memory",
+//            "transition-left-to-right": false
+//        },        
+//        "modules": [
+//            "custom/texting",
+//            "custom/slack",
+//            "custom/discord"
+//        ]
+//    }
+}
