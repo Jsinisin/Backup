@@ -254,8 +254,17 @@
                 },
                 "name": "Slack",
                 "icon": "spatial_tracking",
-                "iconTheme": "material-symbols-rounded",
-                "angle": 150
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/vmplayer /home/user/vmware/Windows/Windows.vmx",
+                  "delayed": true
+                },
+                "name": "Windows",
+                "icon": "laptop_windows",
+                "iconTheme": "material-symbols-rounded"
               },
               {
                 "type": "command",
@@ -265,8 +274,7 @@
                 },
                 "name": "KdenLive",
                 "icon": "video_camera_back_add",
-                "iconTheme": "material-symbols-rounded",
-                "angle": 210
+                "iconTheme": "material-symbols-rounded"
               },
               {
                 "type": "command",

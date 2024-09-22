@@ -1,3 +1,2 @@
-{"timestamp":20165725,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1726811568418","source":"nav-bar","flow_id":"{8571d84e-aa0a-4cb6-8422-af31d60435d5}","widget_id":"addon0"},"execution_counter":22}
-{"timestamp":20259759,"category":"browser.usage","name":"interaction","extra":{"widget_id":"back-button","flow_id":"{8571d84e-aa0a-4cb6-8422-af31d60435d5}","glean_timestamp":"1726811662452","source":"nav-bar"},"execution_counter":22}
-{"timestamp":91129,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1726943727321","glean.startup.date":"2024-09-21T12:35-06:00"},"execution_counter":23}
+{"timestamp":1710385,"category":"browser.usage","name":"interaction","extra":{"flow_id":"{a5901cf4-f44f-464d-8f8f-75da8a7739d9}","source":"nav-bar","glean_timestamp":"1726964516086","widget_id":"addon0"},"execution_counter":29}
+{"timestamp":1718267,"category":"browser.usage","name":"interaction","extra":{"widget_id":"urlbar-input","source":"nav-bar","glean_timestamp":"1726964523968","flow_id":"{a5901cf4-f44f-464d-8f8f-75da8a7739d9}"},"execution_counter":29}
