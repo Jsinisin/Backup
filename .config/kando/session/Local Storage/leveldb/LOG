@@ -1,3 +1,3 @@
-2024/09/21-17:53:50.808 371 Reusing MANIFEST /home/user/.config/kando/session/Local Storage/leveldb/MANIFEST-000001
-2024/09/21-17:53:50.813 371 Recovering log #3
-2024/09/21-17:53:50.814 371 Reusing old log /home/user/.config/kando/session/Local Storage/leveldb/000003.log 
+2024/09/24-21:53:49.999 904 Reusing MANIFEST /home/user/.config/kando/session/Local Storage/leveldb/MANIFEST-000001
+2024/09/24-21:53:50.005 904 Recovering log #3
+2024/09/24-21:53:50.005 904 Reusing old log /home/user/.config/kando/session/Local Storage/leveldb/000003.log 

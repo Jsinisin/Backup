@@ -1,2 +1,2 @@
-{"timestamp":1710385,"category":"browser.usage","name":"interaction","extra":{"flow_id":"{a5901cf4-f44f-464d-8f8f-75da8a7739d9}","source":"nav-bar","glean_timestamp":"1726964516086","widget_id":"addon0"},"execution_counter":29}
-{"timestamp":1718267,"category":"browser.usage","name":"interaction","extra":{"widget_id":"urlbar-input","source":"nav-bar","glean_timestamp":"1726964523968","flow_id":"{a5901cf4-f44f-464d-8f8f-75da8a7739d9}"},"execution_counter":29}
+{"timestamp":1021169,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1727236467880","flow_id":"{793c8929-400a-40d3-9155-2c3dae26714f}","widget_id":"urlbar-input","source":"nav-bar"},"execution_counter":33}
+{"timestamp":1123303,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1727236570014","source":"nav-bar","flow_id":"{793c8929-400a-40d3-9155-2c3dae26714f}","widget_id":"zoom-controls"},"execution_counter":33}
