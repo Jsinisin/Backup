@@ -3414,3 +3414,173 @@ It was good, being his goddess. She Smiled as she leaned back, closing her eyes.
 2024-09-19 23:18:25: Garbage collecting alarms...
 2024-09-19 23:18:25: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 289ms)
 2024-09-19 23:18:26: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-09-25 18:32:48: App: Profile directory: /home/user/.config/joplin-desktop
+2024-09-25 18:32:48: App: Root profile directory: /home/user/.config/joplin-desktop
+2024-09-25 18:32:48: Database was open successfully
+2024-09-25 18:32:48: Checking for database schema update...
+2024-09-25 18:32:48: Current database version {"version":47,"table_fields_version":47}
+2024-09-25 18:32:48: Upgrading database from version 47
+2024-09-25 18:32:48: New version: 47. Previously recorded version: 47
+2024-09-25 18:32:48: KeychainService: checking if keychain supported
+2024-09-25 18:32:48: KeychainService: check was already done - skipping. Supported: 0
+2024-09-25 18:32:48: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2024-09-25 18:32:48: handleSyncStartupOperation: Processing operation: 0
+2024-09-25 18:32:48: App: Client ID: b3e0c6e56a064f5199a21e2bc8ee9e90
+2024-09-25 18:32:48: models/Setting: Applying default migrations...
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:48: ResourceFetcher: Auto-add resources: Mode: always
+2024-09-25 18:32:48: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2024-09-25 18:32:48: ResourceFetcher: Auto-added resources: 0
+2024-09-25 18:32:48: permanentlyDeleteOldData: Items to permanently delete: {"noteIds":[],"folderIds":[]}
+2024-09-25 18:32:48: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2024-09-25 18:32:48: App: "syncInfoCache" was changed - setting up encryption related code
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:48: App: "syncInfoCache" was changed - setting up encryption related code
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:48: App: "syncInfoCache" was changed - setting up encryption related code
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:48: app.start: doing regular boot
+2024-09-25 18:32:48: App: "syncInfoCache" was changed - setting up encryption related code
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:48: App: "syncInfoCache" was changed - setting up encryption related code
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:48: App: "syncInfoCache" was changed - setting up encryption related code
+2024-09-25 18:32:48: e2ee/utils: Trying to load 0 master keys...
+2024-09-25 18:32:48: e2ee/utils: Loaded master keys: 0
+2024-09-25 18:32:49: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2024-09-25 18:32:49: PluginService: Loading plugin from /home/user/.config/joplin-desktop/cache/com.whatever.quick-links
+2024-09-25 18:32:49: PluginService: Loading plugin from /home/user/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2024-09-25 18:32:49: SpellCheckerServiceDriverNative: Set effective languages to "en-GB"
+2024-09-25 18:32:49: joplin.plugins: Starting plugin: com.whatever.quick-links
+2024-09-25 18:32:49: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2024-09-25 18:32:49: joplin.plugins: Finished running onStart handler: com.whatever.quick-links (Took 202ms)
+2024-09-25 18:32:49: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-09-25 18:32:50: Preparing scheduled sync
+2024-09-25 18:32:50: Sync cancelled - no sync target is selected.
+2024-09-25 18:32:50: Updating all notifications...
+2024-09-25 18:32:50: Garbage collecting alarms...
+2024-09-25 18:32:50: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 288ms)
+2024-09-25 18:32:51: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-09-25 18:32:53: RevisionService: maintenance: Starting...
+2024-09-25 18:32:53: RevisionService: maintenance: Service is enabled
+2024-09-25 18:32:53: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 18:32:53: RevisionService: maintenance: Done in 103ms
+2024-09-25 18:32:58: SearchEngine: Updating FTS table...
+2024-09-25 18:32:59: Updating items_normalized from {"updated_time":0,"id":""}
+2024-09-25 18:32:59: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2024-09-25 18:33:19: ResourceService::indexNoteResources: Start
+2024-09-25 18:33:19: ResourceService::indexNoteResources: Completed
+2024-09-25 18:33:19: ResourceService::deleteOrphanResources: []
+2024-09-25 18:33:29: SearchEngine: Updating FTS table...
+2024-09-25 18:33:29: Updating items_normalized from {"updated_time":0,"id":""}
+2024-09-25 18:33:29: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2024-09-25 18:37:49: Running background sync on timer...
+2024-09-25 18:37:49: Preparing scheduled sync
+2024-09-25 18:37:49: Sync cancelled - no sync target is selected.
+2024-09-25 18:42:49: Running background sync on timer...
+2024-09-25 18:42:49: Preparing scheduled sync
+2024-09-25 18:42:49: Sync cancelled - no sync target is selected.
+2024-09-25 18:42:49: RevisionService: maintenance: Starting...
+2024-09-25 18:42:49: RevisionService: maintenance: Service is enabled
+2024-09-25 18:42:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 18:42:49: RevisionService: maintenance: Done in 101ms
+2024-09-25 18:47:49: Running background sync on timer...
+2024-09-25 18:47:49: Preparing scheduled sync
+2024-09-25 18:47:49: Sync cancelled - no sync target is selected.
+2024-09-25 18:52:49: RevisionService: maintenance: Starting...
+2024-09-25 18:52:49: RevisionService: maintenance: Service is enabled
+2024-09-25 18:52:49: Running background sync on timer...
+2024-09-25 18:52:49: Preparing scheduled sync
+2024-09-25 18:52:49: Sync cancelled - no sync target is selected.
+2024-09-25 18:52:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 18:52:49: RevisionService: maintenance: Done in 102ms
+2024-09-25 18:57:49: Running background sync on timer...
+2024-09-25 18:57:49: Preparing scheduled sync
+2024-09-25 18:57:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:02:49: RevisionService: maintenance: Starting...
+2024-09-25 19:02:49: RevisionService: maintenance: Service is enabled
+2024-09-25 19:02:49: Running background sync on timer...
+2024-09-25 19:02:49: Preparing scheduled sync
+2024-09-25 19:02:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:02:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 19:02:49: RevisionService: maintenance: Done in 103ms
+2024-09-25 19:07:49: Running background sync on timer...
+2024-09-25 19:07:49: Preparing scheduled sync
+2024-09-25 19:07:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:12:49: RevisionService: maintenance: Starting...
+2024-09-25 19:12:49: RevisionService: maintenance: Service is enabled
+2024-09-25 19:12:49: Running background sync on timer...
+2024-09-25 19:12:49: Preparing scheduled sync
+2024-09-25 19:12:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:12:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 19:12:49: RevisionService: maintenance: Done in 103ms
+2024-09-25 19:17:49: Running background sync on timer...
+2024-09-25 19:17:49: Preparing scheduled sync
+2024-09-25 19:17:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:22:49: RevisionService: maintenance: Starting...
+2024-09-25 19:22:49: RevisionService: maintenance: Service is enabled
+2024-09-25 19:22:49: Running background sync on timer...
+2024-09-25 19:22:49: Preparing scheduled sync
+2024-09-25 19:22:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:22:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 19:22:49: RevisionService: maintenance: Done in 102ms
+2024-09-25 19:27:49: Running background sync on timer...
+2024-09-25 19:27:49: Preparing scheduled sync
+2024-09-25 19:27:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:32:49: Garbage collecting alarms...
+2024-09-25 19:32:49: RevisionService: maintenance: Starting...
+2024-09-25 19:32:49: RevisionService: maintenance: Service is enabled
+2024-09-25 19:32:49: Running background sync on timer...
+2024-09-25 19:32:49: Preparing scheduled sync
+2024-09-25 19:32:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:32:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 19:32:49: RevisionService: maintenance: Done in 101ms
+2024-09-25 19:37:49: Running background sync on timer...
+2024-09-25 19:37:49: Preparing scheduled sync
+2024-09-25 19:37:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:42:49: RevisionService: maintenance: Starting...
+2024-09-25 19:42:49: RevisionService: maintenance: Service is enabled
+2024-09-25 19:42:49: Running background sync on timer...
+2024-09-25 19:42:49: Preparing scheduled sync
+2024-09-25 19:42:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:42:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 19:42:49: RevisionService: maintenance: Done in 102ms
+2024-09-25 19:47:49: Running background sync on timer...
+2024-09-25 19:47:49: Preparing scheduled sync
+2024-09-25 19:47:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:52:49: RevisionService: maintenance: Starting...
+2024-09-25 19:52:49: RevisionService: maintenance: Service is enabled
+2024-09-25 19:52:49: Running background sync on timer...
+2024-09-25 19:52:49: Preparing scheduled sync
+2024-09-25 19:52:49: Sync cancelled - no sync target is selected.
+2024-09-25 19:52:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 19:52:49: RevisionService: maintenance: Done in 102ms
+2024-09-25 19:57:49: Running background sync on timer...
+2024-09-25 19:57:49: Preparing scheduled sync
+2024-09-25 19:57:49: Sync cancelled - no sync target is selected.
+2024-09-25 20:02:49: RevisionService: maintenance: Starting...
+2024-09-25 20:02:49: RevisionService: maintenance: Service is enabled
+2024-09-25 20:02:49: Running background sync on timer...
+2024-09-25 20:02:49: Preparing scheduled sync
+2024-09-25 20:02:49: Sync cancelled - no sync target is selected.
+2024-09-25 20:02:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 20:02:49: RevisionService: maintenance: Done in 102ms
+2024-09-25 20:07:49: Running background sync on timer...
+2024-09-25 20:07:49: Preparing scheduled sync
+2024-09-25 20:07:49: Sync cancelled - no sync target is selected.
+2024-09-25 20:12:49: RevisionService: maintenance: Starting...
+2024-09-25 20:12:49: RevisionService: maintenance: Service is enabled
+2024-09-25 20:12:49: Running background sync on timer...
+2024-09-25 20:12:49: Preparing scheduled sync
+2024-09-25 20:12:49: Sync cancelled - no sync target is selected.
+2024-09-25 20:12:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-09-25 20:12:49: RevisionService: maintenance: Done in 103ms
+2024-09-25 20:17:49: Running background sync on timer...
+2024-09-25 20:17:49: Preparing scheduled sync
+2024-09-25 20:17:49: Sync cancelled - no sync target is selected.

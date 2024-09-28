@@ -1,7 +1,9 @@
 {
 	"$schema": "https://joplinapp.org/schema/settings.json",
+	"editor.codeView": true,
+	"richTextBannerDismissed": true,
 	"locale": "en_GB",
-	"theme": 7,
+	"theme": 2,
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
 	"style.editor.fontFamily": "JetBrains Mono",
@@ -26,12 +28,13 @@
 		],
 		"visible": true
 	},
+	"clipperServer.autoStart": true,
 	"noteVisiblePanes": [
-		"editor",
-		"viewer"
+		"editor"
 	],
 	"api.token": "f2690c9df64e74f15e14cdc391ec96962610259cddef4ebc10650848ad3fda6eeda85410438241b0dfd9a1121bca1357dd4fe418966427c3f51596dae1ed672e",
 	"spellChecker.languages": [
 		"en-GB"
-	]
+	],
+	"windowContentZoomFactor": 100
 }

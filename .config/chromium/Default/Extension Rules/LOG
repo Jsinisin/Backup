@@ -1,2 +1,3 @@
-2024/09/19-18:26:01.744 6fb Creating DB /home/user/.config/chromium/Default/Extension Rules since it was missing.
-2024/09/19-18:26:01.749 6fb Reusing MANIFEST /home/user/.config/chromium/Default/Extension Rules/MANIFEST-000001
+2024/09/27-19:37:54.971 512 Reusing MANIFEST /home/user/.config/chromium/Default/Extension Rules/MANIFEST-000001
+2024/09/27-19:37:54.971 512 Recovering log #3
+2024/09/27-19:37:54.971 512 Reusing old log /home/user/.config/chromium/Default/Extension Rules/000003.log 

@@ -62,32 +62,12 @@
               {
                 "type": "uri",
                 "data": {
-                  "uri": "https://my.wealthsimple.com/app/login?locale=en-ca"
-                },
-                "name": "WealthSimple",
-                "icon": "waterfall_chart",
-                "iconTheme": "material-symbols-rounded",
-                "angle": 0
-              },
-              {
-                "type": "uri",
-                "data": {
                   "uri": "https://secure.eqbank.ca/login"
                 },
                 "name": "EQ Bank",
                 "icon": "request_page",
                 "iconTheme": "material-symbols-rounded",
-                "angle": 180
-              },
-              {
-                "type": "uri",
-                "data": {
-                  "uri": "https://member.neofinancial.com/login"
-                },
-                "name": "NeoFinancial",
-                "icon": "credit_card",
-                "iconTheme": "material-symbols-rounded",
-                "angle": 240
+                "angle": 0
               },
               {
                 "type": "uri",
@@ -97,7 +77,27 @@
                 "name": "ScotiaBank",
                 "icon": "send_money",
                 "iconTheme": "material-symbols-rounded",
-                "angle": 300
+                "angle": 90
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://member.neofinancial.com/login"
+                },
+                "name": "NeoFinancial",
+                "icon": "credit_card",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 135
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://my.wealthsimple.com/app/login?locale=en-ca"
+                },
+                "name": "WealthSimple",
+                "icon": "waterfall_chart",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
               }
             ],
             "angle": 0
@@ -123,24 +123,13 @@
               {
                 "type": "command",
                 "data": {
-                  "command": "/usr/bin/code %F",
-                  "delayed": false
-                },
-                "name": "VS Code",
-                "icon": "code_blocks",
-                "iconTheme": "material-symbols-rounded",
-                "angle": 60
-              },
-              {
-                "type": "command",
-                "data": {
                   "command": "chromium --app=https://app.standardnotes.com",
                   "delayed": true
                 },
                 "name": "Standard Notes",
                 "icon": "note_stack",
                 "iconTheme": "material-symbols-rounded",
-                "angle": 120
+                "angle": 90
               },
               {
                 "type": "submenu",
@@ -171,6 +160,17 @@
                   }
                 ],
                 "angle": 180
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "/usr/bin/code %F",
+                  "delayed": false
+                },
+                "name": "VS Code",
+                "icon": "code_blocks",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270
               }
             ],
             "angle": 60
@@ -315,7 +315,7 @@
                 "name": "Downloads",
                 "icon": "download",
                 "iconTheme": "material-symbols-rounded",
-                "angle": 30
+                "angle": 0
               },
               {
                 "type": "command",
@@ -356,7 +356,7 @@
                 "name": "Documents",
                 "icon": "text_ad",
                 "iconTheme": "material-symbols-rounded",
-                "angle": 315
+                "angle": 300
               }
             ],
             "angle": 240

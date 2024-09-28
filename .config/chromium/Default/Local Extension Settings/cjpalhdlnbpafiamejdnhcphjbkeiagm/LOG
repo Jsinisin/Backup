@@ -1,3 +1,39 @@
-2024/09/19-21:50:47.419 535b Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2024/09/19-21:50:47.419 535b Recovering log #13
-2024/09/19-21:50:47.419 535b Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000013.log 
+2024/09/28-09:16:37.653 515 Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/09/28-09:16:37.654 515 Recovering log #47
+2024/09/28-09:16:37.654 515 Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000047.log 
+2024/09/28-09:17:15.960 516 Level-0 table #51: started
+2024/09/28-09:17:15.970 516 Level-0 table #51: 4297704 bytes OK
+2024/09/28-09:17:15.972 516 Delete type=0 #47
+2024/09/28-09:18:12.798 521 Level-0 table #53: started
+2024/09/28-09:18:12.842 521 Level-0 table #53: 9024646 bytes OK
+2024/09/28-09:18:12.846 521 Delete type=0 #50
+2024/09/28-09:18:12.848 521 Compacting 4@0 + 3@1 files
+2024/09/28-09:18:12.859 521 Generated table #54@0: 6 keys, 2507610 bytes
+2024/09/28-09:18:12.881 521 Generated table #55@0: 8 keys, 2778729 bytes
+2024/09/28-09:18:12.896 521 Generated table #56@0: 4 keys, 2442136 bytes
+2024/09/28-09:18:12.945 521 Generated table #57@0: 2 keys, 4977753 bytes
+2024/09/28-09:18:12.955 521 Generated table #58@0: 10 keys, 1082245 bytes
+2024/09/28-09:18:12.955 521 Compacted 4@0 + 3@1 files => 13788473 bytes
+2024/09/28-09:18:12.957 521 compacted to: files[ 0 5 1 0 0 0 0 ]
+2024/09/28-09:18:12.957 521 Delete type=2 #41
+2024/09/28-09:18:12.957 521 Delete type=2 #42
+2024/09/28-09:18:12.957 521 Delete type=2 #43
+2024/09/28-09:18:12.957 521 Delete type=2 #45
+2024/09/28-09:18:12.957 521 Delete type=2 #48
+2024/09/28-09:18:12.957 521 Delete type=2 #51
+2024/09/28-09:18:12.957 521 Delete type=2 #53
+2024/09/28-09:18:12.963 521 Expanding@1 1+1 (2507610+4314959 bytes) to 5+1 (13788473+4314959 bytes)
+2024/09/28-09:18:12.963 521 Compacting 5@1 + 1@2 files
+2024/09/28-09:18:12.972 521 Generated table #59@1: 6 keys, 2507610 bytes
+2024/09/28-09:18:12.989 521 Generated table #60@1: 8 keys, 2778729 bytes
+2024/09/28-09:18:13.005 521 Generated table #61@1: 6 keys, 2740946 bytes
+2024/09/28-09:18:13.038 521 Generated table #62@1: 2 keys, 4977753 bytes
+2024/09/28-09:18:13.047 521 Generated table #63@1: 15 keys, 1084121 bytes
+2024/09/28-09:18:13.047 521 Compacted 5@1 + 1@2 files => 14089159 bytes
+2024/09/28-09:18:13.049 521 compacted to: files[ 0 0 5 0 0 0 0 ]
+2024/09/28-09:18:13.049 521 Delete type=2 #5
+2024/09/28-09:18:13.049 521 Delete type=2 #54
+2024/09/28-09:18:13.049 521 Delete type=2 #55
+2024/09/28-09:18:13.049 521 Delete type=2 #56
+2024/09/28-09:18:13.049 521 Delete type=2 #57
+2024/09/28-09:18:13.049 521 Delete type=2 #58

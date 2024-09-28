@@ -1,9 +1,6 @@
-2024/09/19-21:45:49.503 4e72 Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2024/09/19-21:45:49.503 4e72 Recovering log #8
-2024/09/19-21:45:49.503 4e72 Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000008.log 
-2024/09/19-21:46:27.792 4e73 Level-0 table #12: started
-2024/09/19-21:46:27.809 4e73 Level-0 table #12: 4544423 bytes OK
-2024/09/19-21:46:27.812 4e73 Delete type=0 #8
-2024/09/19-21:47:24.594 4e74 Level-0 table #14: started
-2024/09/19-21:47:24.638 4e74 Level-0 table #14: 7312417 bytes OK
-2024/09/19-21:47:24.641 4e74 Delete type=0 #11
+2024/09/27-19:37:55.238 512 Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/09/27-19:37:55.239 512 Recovering log #44
+2024/09/27-19:37:55.239 512 Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000044.log 
+2024/09/27-20:39:34.938 51f Level-0 table #48: started
+2024/09/27-20:39:34.976 51f Level-0 table #48: 6617227 bytes OK
+2024/09/27-20:39:34.978 51f Delete type=0 #44
