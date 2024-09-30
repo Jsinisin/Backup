@@ -1,0 +1,21 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.language.colorizedBracketPairs": [
+
+
+
+
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#FEB4CB",
+    "editorBracketHighlight.foreground2": "#FEB4CB",
+    "editorBracketHighlight.foreground3": "#FEB4CB",
+    "editorBracketHighlight.foreground4": "#FEB4CB",
+    "editorBracketHighlight.foreground5": "#FEB4CB",
+    "editorBracketHighlight.foreground6": "#FEB4CB",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FEB4CB"
+},
+"workbench.colorTheme": "Visual Studio Dark",
+}

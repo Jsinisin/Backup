@@ -1,0 +1,20 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.language.colorizedBracketPairs": [
+
+
+
+
+
+    ],
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+    "window.restoreWindows": "none",
+    "window.startupFolder:" "/home/user",
+    "workbench.startupEditor": "!Codepad",
+    "workbench.editor.restoreViewState": false,
+    "json.schemas": [
+
+    ],
+    "files.hotExit": "off"
+}

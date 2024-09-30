@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.language.colorizedBracketPairs": [
+
+
+
+
+
+    ],
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+    "workbench.settings.applyToAllProfiles": [
+        "files.dialog.defaultPath"
+    ]
+}
