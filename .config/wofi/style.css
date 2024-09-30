@@ -13,7 +13,7 @@ window {
 #entry:selected {
     background: linear-gradient(45deg, rgba(144,205,250,0.7) 0%, rgba(182,155,241,0.7) 60%);
     color: #333333;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 #expander-box {
@@ -47,7 +47,7 @@ window {
 
 #outer-box{
     box-shadow: none;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 3px solid #8372AF;
     padding-bottom: 0px;
     transition: 0.5s ease-in-out;

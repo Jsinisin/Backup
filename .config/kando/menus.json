@@ -164,7 +164,7 @@
               {
                 "type": "command",
                 "data": {
-                  "command": "/usr/bin/code %F",
+                  "command": "/usr/bin/code /home/user",
                   "delayed": false
                 },
                 "name": "VS Code",

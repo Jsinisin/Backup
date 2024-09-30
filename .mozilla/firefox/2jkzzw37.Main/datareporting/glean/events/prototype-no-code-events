@@ -1,2 +1,2 @@
-{"timestamp":65426,"category":"browser.usage","name":"interaction","extra":{"source":"nav-bar","flow_id":"{795a9b88-0507-47f6-a0b3-5fd1524863f8}","widget_id":"addon0","glean_timestamp":"1727543745327"},"execution_counter":47}
-{"timestamp":1429072,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2024-09-28T11:48-06:00","glean_timestamp":"1727545713781"},"execution_counter":48}
+{"timestamp":3910884,"category":"browser.usage","name":"interaction","extra":{"flow_id":"{0045b70c-ddeb-459b-b51d-f3dfdbcdcf7c}","source":"nav-bar","widget_id":"urlbar-input","glean_timestamp":"1727681415313"},"execution_counter":68}
+{"timestamp":3950586,"category":"browser.usage","name":"interaction","extra":{"glean_timestamp":"1727681455014","widget_id":"urlbar-input","flow_id":"{0045b70c-ddeb-459b-b51d-f3dfdbcdcf7c}","source":"nav-bar"},"execution_counter":68}
