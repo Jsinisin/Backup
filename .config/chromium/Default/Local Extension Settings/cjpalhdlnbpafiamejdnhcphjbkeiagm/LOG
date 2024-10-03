@@ -1,34 +1,12 @@
-2024/09/29-11:31:34.386 3070 Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2024/09/29-11:31:34.386 3070 Recovering log #70
-2024/09/29-11:31:34.386 3070 Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000070.log 
-2024/09/29-11:32:12.941 307d Level-0 table #74: started
-2024/09/29-11:32:12.967 307d Level-0 table #74: 4729859 bytes OK
-2024/09/29-11:32:12.970 307d Delete type=0 #70
-2024/09/29-11:33:18.573 307d Level-0 table #76: started
-2024/09/29-11:33:18.609 307d Level-0 table #76: 8732615 bytes OK
-2024/09/29-11:33:18.611 307d Delete type=0 #73
-2024/09/29-11:33:18.613 307d Compacting 4@0 + 1@1 files
-2024/09/29-11:33:18.622 307d Generated table #77@0: 4 keys, 2489637 bytes
-2024/09/29-11:33:18.637 307d Generated table #78@0: 5 keys, 2585942 bytes
-2024/09/29-11:33:18.648 307d Generated table #79@0: 2 keys, 2304759 bytes
-2024/09/29-11:33:18.692 307d Generated table #80@0: 2 keys, 4993113 bytes
-2024/09/29-11:33:18.700 307d Generated table #81@0: 8 keys, 1085582 bytes
-2024/09/29-11:33:18.700 307d Compacted 4@0 + 1@1 files => 13459033 bytes
-2024/09/29-11:33:18.702 307d compacted to: files[ 0 5 5 0 0 0 0 ]
-2024/09/29-11:33:18.702 307d Delete type=2 #66
-2024/09/29-11:33:18.702 307d Delete type=2 #68
-2024/09/29-11:33:18.702 307d Delete type=2 #71
-2024/09/29-11:33:18.702 307d Delete type=2 #74
-2024/09/29-11:33:18.702 307d Delete type=2 #76
-2024/09/29-11:33:18.706 307d Compacting 1@1 + 1@2 files
-2024/09/29-11:33:18.716 307d Generated table #82@1: 6 keys, 2506503 bytes
-2024/09/29-11:33:18.716 307d Compacted 1@1 + 1@2 files => 2506503 bytes
-2024/09/29-11:33:18.717 307d compacted to: files[ 0 4 5 0 0 0 0 ]
-2024/09/29-11:33:18.718 307d Delete type=2 #59
-2024/09/29-11:33:18.718 307d Delete type=2 #77
-2024/09/29-11:33:18.718 307d Compacting 1@1 + 1@2 files
-2024/09/29-11:33:18.732 307d Generated table #83@1: 8 keys, 2787585 bytes
-2024/09/29-11:33:18.732 307d Compacted 1@1 + 1@2 files => 2787585 bytes
-2024/09/29-11:33:18.733 307d compacted to: files[ 0 3 5 0 0 0 0 ]
-2024/09/29-11:33:18.734 307d Delete type=2 #60
-2024/09/29-11:33:18.734 307d Delete type=2 #78
+2024/10/01-16:57:44.094 52d Reusing MANIFEST /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/10/01-16:57:44.094 52d Recovering log #75
+2024/10/01-16:57:44.095 52d Reusing old log /home/user/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000075.log 
+2024/10/01-16:57:47.838 52f Level-0 table #86: started
+2024/10/01-16:57:47.852 52f Level-0 table #86: 4325934 bytes OK
+2024/10/01-16:57:47.854 52f Delete type=0 #75
+2024/10/01-16:58:42.192 52e Level-0 table #88: started
+2024/10/01-16:58:42.204 52e Level-0 table #88: 4311401 bytes OK
+2024/10/01-16:58:42.206 52e Delete type=0 #85
+2024/10/01-16:58:45.503 539 Level-0 table #90: started
+2024/10/01-16:58:45.529 539 Level-0 table #90: 4850978 bytes OK
+2024/10/01-16:58:45.531 539 Delete type=0 #87

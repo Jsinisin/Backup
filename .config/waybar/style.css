@@ -4,7 +4,7 @@
     border-radius: 0px;
 }
 window#waybar {
-    background-color: rgba(254, 180, 203,0.075);
+    background-color: rgba(0, 0, 0,0.35);
     /*border: 1px solid #000000;*/
     color: #FFFFFF;
     border-radius: 18px;

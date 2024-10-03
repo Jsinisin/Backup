@@ -4,6 +4,7 @@
         "workspaces": {
             "file:///home/user/.config/hypr": "__default__profile__",
             "file:///home/user/.config": "__default__profile__",
+            "file:///usr/share/rofi/themes": "__default__profile__",
             "file:///home/user": "__default__profile__"
         },
         "emptyWindows": {}
@@ -27,8 +28,8 @@
             "backupPath": "/home/user/.config/Code/Backups/172a819acda4cd9aa2f1541b25ea0a9e",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": -1080,
+                "x": 256,
+                "y": 200,
                 "width": 2048,
                 "height": 1200,
                 "zoomLevel": 1
@@ -86,8 +87,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -102,6 +102,17 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/user"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///usr/share/rofi/themes",
+                                        "path": "/usr/share/rofi/themes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/usr/share/rofi/themes"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -127,6 +138,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/user/.config/gtk-3.0/gtk.css",
+                                        "path": "/home/user/.config/gtk-3.0/gtk.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-3.0/gtk.css"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -209,18 +231,15 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -323,13 +342,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -378,13 +395,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -852,8 +867,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -861,8 +875,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -871,8 +884,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
