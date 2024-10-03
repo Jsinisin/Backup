@@ -167,8 +167,6 @@ audacity
 bitwarden
 bleachbit
 brightnessctl
-cava
-chromium
 cliphist
 dunst
 ffmpeg
@@ -214,6 +212,7 @@ PARU
 ---------------------
 hyprpicker
 kando
+cava
 librewolf-bin
 chrome (8)
 discord (1)
