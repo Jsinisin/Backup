@@ -54,7 +54,7 @@ element normal.active {
 }
 element selected.normal {
     border:           3px ;
-    background-color: rgba ( 13, 17, 23, 80 % );
+    background-color: #24042D;
     border-color:     rgba ( 254, 180, 203, 100 % );
     text-color:       rgba ( 254, 180, 203, 100 % );
     border-radius:    15px ;
