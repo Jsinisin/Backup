@@ -125,6 +125,7 @@ listview {
     border-color: var(separatorcolor);
     columns:      1;
     spacing:      0px ;
+    require-input: true;
 }
 scrollbar {
     width:        4px ;
