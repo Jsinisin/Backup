@@ -255,6 +255,9 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 Sudo reboot now
 
+rm ~/Library/Application Support/Code/User/workspaceStorage/*
+chown root ~/Library/Application Support/Code/User/workspaceStorage
+
 Firefox:
 about:config
 devtools.pol - false
