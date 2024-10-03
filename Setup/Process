@@ -167,12 +167,14 @@ audacity
 bitwarden
 bleachbit
 brightnessctl
+cava
 chromium
 cliphist
 dunst
 ffmpeg
 file-roller
 firefox
+foot
 gimp
 grim
 gvfs
@@ -186,8 +188,9 @@ libreoffice-fresh
 mousepad
 nwg-look
 pavucontrol
-pulseaudio
-pulseaudio-bluetooth
+pipewire
+pipewire-alsa
+pipewire-pulse
 polkit-gnome
 polkit-kde-agent
 qt6ct
@@ -201,6 +204,7 @@ thunar-archive-plugin
 thunar-volman
 waybar
 wf-recorder
+wireplumber
 wlroots
 wofi
 
@@ -209,18 +213,22 @@ wofi
 PARU
 ---------------------
 hyprpicker
+kando
+discord (1)
 microsoft-edge-stable-bin
 network-manager-openvpn
 qimgv
 slack-desktop-wayland
 snapper-gui
+rofi-wayland
 visual-studio-code-bin
 wlogout
+vmware (4)
 snap-pac-grub
-kando
-vmware
 
 joplin.sh
+
+systemctl --user --now enable pipewire pipewire-pulse wireplumber
 
 CD /home/user/base/Setup
 
