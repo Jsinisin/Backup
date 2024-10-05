@@ -1,1 +1,0 @@
-sudo umount /.snapshots && sudo rm -rf /.snapshots && sudo snapper -c root create-config / && sudo btrfs subvolume delete /.snapshots && sudo mkdir /.snapshots && sudo mount -a && sudo chmod 750 /.snapshots
