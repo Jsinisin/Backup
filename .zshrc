@@ -9,8 +9,7 @@ TRAPALRM() {
 }
 
 # Hyprland
-alias hl="Hyprland"
-alias hyp="sudo vim /home/user/.config/hypr/hyprland.conf"
+alias hype="Hyprland"
 
 # PACMAN Alias
 alias pmi="sudo pacman -S"
@@ -22,9 +21,6 @@ alias pml="pacman -Qe"
 
 # NeoVim
 alias svim="sudo vim"
-
-# Pad.txt
-alias pad="cat /home/user/Documents/pad.txt"
 
 # Git
 alias gits="git status"
@@ -40,6 +36,7 @@ alias ll="ls -al"
 alias ls="ls -a"
 alias untar="tar -xvzf"  # -C for untar to directory
 alias untarall="tar -xvzf *.tar.gz"
+alias bluetooth="sudo systemctl start bluetooth.service && blueman-applet"
 
 # Trash-CLi
 alias trash="trash-put"
