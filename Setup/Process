@@ -1,15 +1,15 @@
 Partition + Format
 
-mount -o noatime,compress=lzo,space_cache=v2 /dev/nvme0n1p6 /mnt
+mount -o noatime,compress=zstd,space_cache=v2 /dev/nvme0n1p6 /mnt
 
 btrfs su cr /mnt/@, snapshots
 
 umount /mnt
 
-mount -o noatime,compress=lzo,space_cache=v2,subvol=@ /dev/nvme0n1p6 /mnt
+mount -o noatime,compress=zstd,space_cache=v2,subvol=@ /dev/nvme0n1p2 /mnt
 mkdir -p /mnt/{boot,home,.snapshots}
-mount -o noatime,compress=lzo,space_cache=v2,subvol=@snapshots /dev/nvme0n1p6 /mnt/.snapshots
-mount /dev/nvme0n1p5 /mnt/boot
+mount -o noatime,compress=zstd,space_cache=v2,subvol=@snapshots /dev/nvme0n1p2 /mnt/.snapshots
+mount /dev/nvme0n1p1 /mnt/boot
 
 PACSTRAP:
 amd-ucode
@@ -34,7 +34,7 @@ passwd user
 EDITOR=vim visudo
 
 ln -sf /usr/share/zoneinfo/America/Regina /etc/localtime
-hclock --systoch
+hclock --systohc
 
 vim /etc/locale.gen
 
@@ -58,10 +58,8 @@ git
 grub
 fastfetch
 fuse2
-fuse3
 networkmanager
 network-manager-applet
-os-prober
 otf-font-awesome
 snapper
 terminus-font
@@ -80,7 +78,6 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable NetworkManager
-systemctl enable bluetooth
 
 exit
 
@@ -92,7 +89,7 @@ sudo shutdown now
 --------------------
 sudo nmcli device wifi connect [wifi ssid] password [wifi password]
 
-git clone https://github.com/Jsinisin/base.git
+git clone https://github.com/Jsinisin/backup
 
 sudo chmod +x audio.sh
 sudo chmod +x joplin.sh
@@ -116,11 +113,11 @@ sudo vim /etc/fstab
 
 /dev/zram0 none swap defaults,pri=100 0 0
 
-sudo mv /home/user/base/.zshrc /home/user/
+sudo mv /home/user/backup/.zshrc /home/user/
 sudo mkdir .config
-sudo chown user:user /home/user/.config
-sudo chown user:user /home/user/base/.config/*
-sudo mv /home/user/base/.config/fastfetch /home/user/.config/
+sudo chown -R user:user /home/user/.config
+sudo chown -R user:user /home/user/base/.config/*
+sudo mv /home/user/backup/.config/fastfetch /home/user/.config/
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-syntax-highlighting
@@ -172,7 +169,6 @@ dunst
 ffmpeg
 file-roller
 firefox
-foot
 gimp
 grim
 gvfs
@@ -204,7 +200,6 @@ waybar
 wf-recorder
 wireplumber
 wlroots
-wofi
 
 
 ---------------------
@@ -229,9 +224,7 @@ snap-pac-grub
 
 joplin.sh
 
-systemctl --user --now enable pipewire pipewire-pulse wireplumber
-
-CD /home/user/base/Setup
+CD /home/user/backup/Setup
 
 tar -xzf (Setup/.Local)
 unzip -q
@@ -259,8 +252,4 @@ Sudo reboot now
 rm ~/Library/Application Support/Code/User/workspaceStorage/*
 chown root ~/Library/Application Support/Code/User/workspaceStorage
 
-Firefox:
-about:config
-devtools.pol - false
-legacy - false
-animatedFox.centeredTabs - true
+
